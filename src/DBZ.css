@@ -1,0 +1,260 @@
+li{
+  list-style: none;
+}
+
+/*
+=====       Main Body Information     =====
+*/
+
+.albumHeader{
+  font-size: 100px;
+  color:silver;
+  background-color: #00BFFF;
+  border: 1px solid #FC4A1A
+}
+.container{
+  display: flex;
+  justify-content: space-around; 
+}
+
+.allAlbums{
+  flex-grow: 2;
+}
+.navList{
+  width:200px;
+  height: 550px;
+  align-items: center;
+}
+
+.photoAlbum{
+  font-size: 20px;
+  color:red; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: #00BFFF;
+    border: 1px solid #FC4A1A; 
+    margin:0px;
+}
+.navList :hover .photoLink {
+    left: 0px;
+}
+
+
+.photoLink{
+  list-style-type: none;
+  padding:0px; 
+  margin:0px; 
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  justify-content: space-around;
+  height:550px;
+  font-size: 20px;
+  width:200px;
+  transition: left .9s;
+  left: -210px;
+}
+
+
+.eachAlbum{
+  background-color: #00BFFF; 
+  padding-top:20px;
+  padding-bottom: 20px;
+  width:100%;
+  height:100%;
+  border: 1px solid #FC4A1A;
+}
+
+
+/*
+======          Each Li hover affect        =======
+*/
+.eachAlbum:hover {
+  background-color: #FFF5EE;
+}
+
+
+
+/*
+======        Each Photo Div.      =======*/
+.photo-set{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.photo{
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background-color: #6495ED;
+  border: 1px solid black;
+  opacity: .9;
+}
+
+.picture{
+  font-size: 20px;
+  align-items: baseline;
+}
+
+
+/*
+=====         Hover effect for each Photo         =========
+*/
+
+.boxOne:hover{
+  opacity: 1;
+}
+.boxTwo:hover{
+  opacity: 1;
+}
+.boxThree:hover{
+  opacity: 1;
+}
+.boxFour:hover{
+  opacity: 1;
+}
+.boxFive:hover{
+  opacity: 1;
+}
+.boxSix:hover{
+  opacity: 1;
+}
+
+/*
+=========          each Photo Selector        ==========
+ */
+
+ .Photos{
+  font-size: 20px;
+  color:red; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: #00BFFF;
+    border: 1px solid #FC4A1A; 
+    margin:0px;
+ }
+.photoSelector-ul{
+  padding:0px; 
+  margin:0px; 
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /*position:absolute;*/
+  justify-content: space-around;
+  height:550px;
+  font-size: 20px;
+  width:200px;
+  transition: left .9s;
+
+  position: relative;
+}
+
+.photoLinks{
+  background-color: #00BFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #FC4A1A;
+    position: relative;
+    transition: right 1s, bottom 1s, left 1s, top 1s;
+}
+
+/*
+=========   each Photo Selector Link    =========
+*/
+.photoLinks:hover{
+  background-color: #FFF5EE;
+}
+.photoSelector :hover .photoSelector-ul{
+  right: -1px;
+}
+
+.link-one{
+  right: 1240px;
+  bottom:200px;
+  visibility: hidden;
+  }
+
+.something :hover .link-one{
+  visibility: visible;
+  right:0px;
+  bottom:0px;
+  transition-delay: .01s
+}
+
+.link-two{
+  right: 1240px;
+  bottom: 120px;
+  visibility: hidden;
+}
+
+.something :hover .link-two{
+  visibility: visible;
+  right:0px;
+  bottom:0px;
+  transition-delay: .02s
+}
+
+.link-three{
+  right: 1240px;
+  bottom: 40px;
+  visibility: hidden;
+}
+
+.something :hover .link-three{
+ visibility: visible;
+  right:0px;
+  bottom:0px;
+  transition-delay: .03s
+}
+
+.link-four{
+  right: 1240px;
+  top: 40px;
+  visibility: hidden;
+}
+
+.something :hover .link-four{
+  visibility: visible;
+  right:0px;
+  top:0px;
+  transition-delay: .04s
+}
+
+.link-five{
+  right: 1240px;
+  top: 120px;
+  visibility: hidden;
+}
+
+.something :hover .link-five{
+  visibility: visible;
+  right:0px;
+  top:0px;
+  transition-delay: .05s
+}
+
+.link-six{
+  right: 1240px;
+  top: 200px;
+  visibility: hidden;
+}
+
+.something :hover .link-six{
+  visibility: visible;
+  right:0px;
+  top:0px;
+  transition-delay: .06s
+}
+.goku{
+  width: 1500px;
+  height: 800px;
+}
+

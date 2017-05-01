@@ -1,0 +1,21 @@
+.title{
+  font-size: 100px;
+  color: #FC4A1A;
+  background-color: #4ABDAC;
+  font-family:"Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif;
+  padding-bottom: 10px;
+  border: 1px solid #FC4A1A;
+}
+
+.albumset{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.album{
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  background-color: #FC4A1A;
+}

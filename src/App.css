@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/*
+=====     This is for everypage       =====
+*/
+body{
+  background-color: #E0FFFF;
+}
+/* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: red;
+}
+
+li{
+  color: red;
+}
+
+/*
+=======         This shows up on everypage          ======
+*/
+
+.top-nav{
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  font-size: 30px;
+  border: 1px solid black;
+}

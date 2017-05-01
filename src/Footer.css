@@ -1,0 +1,20 @@
+.body{
+	align-items: baseline;
+	margin: 0px;
+	padding: 0px;
+	background-color: #00BFFF;
+	height: 100px;
+	border: 1px solid black;
+}
+
+.bottom-footer{
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.about{
+	font-size: 50px;
+	display: inline-flex;
+}
