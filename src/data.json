@@ -1,0 +1,32 @@
+ [
+	{
+	 "picture": "./DBZ/SSJ4_Goku.png",
+	"path": "/album/0",
+	 "header":"Dragon Ball Z",
+    "album": [
+      { "picture": "./DBZ/Goku-Back.jpg"},
+      { "picture": "./DBZ/Vegeta.png"},
+      { "picture": "./DBZ/SSJ2_Gohan.jpg"}
+    ]
+  },
+  { 
+  	"picture": "./Naruto/Naruto.png",
+  	"path": "/album/1",
+  	"header":"Naruto",
+    "album": [
+      { "picture": "./Naruto/Naruto_normal.jpeg"},
+      { "picture": "./Naruto/Sasuke_normal.png"},
+      { "picture": "./Naruto/Sakura_normal.png"}
+    ]
+  },
+  {
+  "picture": "./OnePiece/luffy.jpg",
+   "path": "./album/2",
+  	"header":"One Piece",
+    "album": [
+      { "picture": "./OnePiece/luffy.jpg"},
+      { "picture": "./OnePiece/Zoro.jpg"},
+      { "picture": "./OnePiece/Sanji.jpg"}
+    ]
+  }
+]
