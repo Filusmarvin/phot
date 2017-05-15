@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import axios from 'axios';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './hover.css';
-import Home from './Home.js'
 import data from './data.json'
 
 
@@ -17,31 +15,30 @@ class DBZ extends Component{
   			let goodPath = require(pic.picture)
   			pic.goodPath = goodPath;
   			})
-    	console.log(obj)
     })
 
     super()
     this.state = {data}
   }
-  
+
 	render () {
 		const albumId = this.props.match.params.albumId
-  		const dataSet = data[albumId]
-  		console.log(dataSet.album)
+  	const dataSet = data[albumId]
+
 		return (
 				<div>
-					<header className="albumHeader"> Dragon Ball Z
+					<header className="albumHeader"> <h1> {data.header} </h1>
 					 </header>
 					<div className="container">
-						<aside className="navList"> 
+						<aside className="navList">
 							<nav>
-								<Link to="/Home"><p className="photoAlbum"> Photo Album </p> </Link>
-								<ul className="photoLink"> 
+								<Link to="/"><p className="photoAlbum"> Photo Album </p> </Link>
+								<ul className="photoLink">
 									<li className="eachAlbum hidden-one hvr-bob hvr-glow"><Link to="/DBZ" > Album 1 </Link> </li>
 									<li className="eachAlbum hidden-two hvr-bob hvr-glow"><Link to="/Naruto"> Album 2 </Link></li>
 									<li className="eachAlbum hidden-three hvr-bob hvr-glow"><Link to="/OnePiece"> Album 3 </Link></li>
-									<li className="eachAlbum hidden-four hvr-bob hvr-glow"><Link to="/Home"	> Album 4 </Link></li>
-									<li className="eachAlbum hidden-five hvr-bob hvr-glow"><Link to="/Home"	> Album 5 </Link></li>
+									<li className="eachAlbum hidden-four hvr-bob hvr-glow"><Link to="/"	> Album 4 </Link></li>
+									<li className="eachAlbum hidden-five hvr-bob hvr-glow"><Link to="/"	> Album 5 </Link></li>
 									<li className="eachAlbum hidden-six hvr-bob hvr-glow"><Link to="#" > Album 6 </Link></li>
 								</ul>
 							</nav>
@@ -51,13 +48,13 @@ class DBZ extends Component{
 							{dataSet.album.map((pic, index) => {
 								return (
 									<div  className="photo boxOne hvr-grow hvr-back-pulse hvr-round-corners" key={index}>
-									<Link to={`/album/${albumId}/pic/${index}`}> <img src={pic.goodPath} alt="Images" height="300" width="300" /> </Link>
+									<Link to={`/album/${albumId}/picture/${index}`}> <img src={pic.goodPath} alt="Images" height="300" width="300" /> </Link>
 									</div>
 								)
 							})}
         					</div>
         					<div className="photo-set setTwo">
-							</div>
+							    </div>
         				</div>
         				<aside className="something">
         					<nav className="photoSelector">

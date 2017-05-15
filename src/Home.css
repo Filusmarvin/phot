@@ -1,3 +1,8 @@
+body{
+  width: 1440px;
+  }
+
+
 .title{
   font-size: 100px;
   color: #FC4A1A;
@@ -9,8 +14,12 @@
 
 .albumset{
   display: flex;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
   margin: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:1400px;
+  height: 1000px;
 }
 
 .album{

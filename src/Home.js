@@ -16,10 +16,10 @@ class Home extends Component{
     	data
     }
   }
-	
+
 	render () {
 		return (
-			<div className="headerContainer">
+			<div className="headerContainer"> {data.header}
 				<div>
 					<header className="title"> My Albums </ header>
 				</div>
@@ -31,17 +31,7 @@ class Home extends Component{
 							<Link to={data.path}> <img src={data.goodPath} alt="Images" height="400" width="400" /> </Link>
 							</div>
 							)
-						} 
-					)}
-					</div>
-					<div className="albumset set-two" >
-					{this.state.data.map((data,index) =>{
-						return(
-							<div className="album album-{index}"  key={index}>
-							<Link to={data.path}> <img src={data.goodPath} alt="Images" height="400" width="400" /> </Link>
-							</div>
-							)
-						} 
+						}
 					)}
 					</div>
 				</section>

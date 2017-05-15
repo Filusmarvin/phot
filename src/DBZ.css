@@ -14,7 +14,7 @@ li{
 }
 .container{
   display: flex;
-  justify-content: space-around; 
+  justify-content: space-around;
 }
 
 .allAlbums{
@@ -28,13 +28,13 @@ li{
 
 .photoAlbum{
   font-size: 20px;
-  color:red; 
+  color:red;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 200px;
     height: 50px;
     background-color: #00BFFF;
-    border: 1px solid #FC4A1A; 
+    border: 1px solid #FC4A1A;
     margin:0px;
 }
 .navList :hover .photoLink {
@@ -44,8 +44,8 @@ li{
 
 .photoLink{
   list-style-type: none;
-  padding:0px; 
-  margin:0px; 
+  padding:0px;
+  margin:0px;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -60,7 +60,7 @@ li{
 
 
 .eachAlbum{
-  background-color: #00BFFF; 
+  background-color: #00BFFF;
   padding-top:20px;
   padding-bottom: 20px;
   width:100%;
@@ -82,6 +82,8 @@ li{
 ======        Each Photo Div.      =======*/
 .photo-set{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: 10px;
 }
@@ -130,18 +132,18 @@ li{
 
  .Photos{
   font-size: 20px;
-  color:red; 
+  color:red;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 200px;
     height: 50px;
     background-color: #00BFFF;
-    border: 1px solid #FC4A1A; 
+    border: 1px solid #FC4A1A;
     margin:0px;
  }
 .photoSelector-ul{
-  padding:0px; 
-  margin:0px; 
+  padding:0px;
+  margin:0px;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -257,4 +259,3 @@ li{
   width: 1500px;
   height: 800px;
 }
-

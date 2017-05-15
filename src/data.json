@@ -4,29 +4,184 @@
 	"path": "/album/0",
 	 "header":"Dragon Ball Z",
     "album": [
-      { "picture": "./DBZ/Goku-Back.jpg"},
-      { "picture": "./DBZ/Vegeta.png"},
-      { "picture": "./DBZ/SSJ2_Gohan.jpg"}
+      {
+         "picture": "./DBZ/Goku-Back.jpg",
+         "path":"./album/0/picture/0"
+      },
+      {
+        "picture": "./DBZ/Vegeta.png",
+        "path":"./album/0/picture/1"
+      },
+      {
+         "picture": "./DBZ/SSJ2_Gohan.jpg",
+         "path":"./album/0/picture/2"
+       },
+       {
+          "picture": "./DBZ/SSJB_GOKU.png",
+          "path":"./album/0/picture/3"
+        },
+        {
+           "picture": "./DBZ/trunks.jpg",
+           "path":"./album/0/picture/4"
+         },
+         {
+            "picture": "./DBZ/Goten.jpeg",
+            "path":"./album/0/picture/5"
+          }
     ]
   },
-  { 
+  {
   	"picture": "./Naruto/Naruto.png",
   	"path": "/album/1",
   	"header":"Naruto",
     "album": [
-      { "picture": "./Naruto/Naruto_normal.jpeg"},
-      { "picture": "./Naruto/Sasuke_normal.png"},
-      { "picture": "./Naruto/Sakura_normal.png"}
+      {
+        "picture": "./Naruto/Naruto_normal.jpeg",
+      "path":"./album/1/picture/0"
+    },
+      {
+         "picture": "./Naruto/Sasuke_normal.png",
+       "path":"./album/1/picture/1"
+     },
+      {
+        "picture": "./Naruto/Sakura_normal.png",
+      "path":"./album/1/picture/2"
+    },
+    {
+      "picture": "./Naruto/Minato_normal.jpeg",
+    "path":"./album/1/picture/3"
+  },
+  {
+    "picture": "./Naruto/Hokage_sage.png",
+  "path":"./album/1/picture/4"
+},
+{
+  "picture": "./Naruto/Kakashi_normal.jpg",
+"path":"./album/1/picture/5"
+}
     ]
   },
   {
-  "picture": "./OnePiece/luffy.jpg",
+  "picture": "./OnePiece/Mainpic.jpg",
    "path": "./album/2",
   	"header":"One Piece",
     "album": [
-      { "picture": "./OnePiece/luffy.jpg"},
-      { "picture": "./OnePiece/Zoro.jpg"},
-      { "picture": "./OnePiece/Sanji.jpg"}
+      {
+         "picture": "./OnePiece/luffy.jpg",
+         "path":"./album/2/picture/0"
+     },
+      {
+        "picture": "./OnePiece/Zoro.jpg",
+        "path":"./album/2/picture/1"
+    },
+      {
+        "picture": "./OnePiece/Sanji.jpg",
+        "path":"./album/2/picture/2"
+    },
+    {
+      "picture": "./OnePiece/Nico.jpg",
+      "path":"./album/2/picture/3"
+  },
+  {
+    "picture": "./OnePiece/Usopp.png",
+    "path":"./album/2/picture/4"
+},
+{
+  "picture": "./OnePiece/Nami.jpg",
+  "path":"./album/2/picture/5"
+}
+    ]
+  },
+  {
+  "picture": "./FairyTail/Natsu.jpg",
+   "path": "./album/3",
+  	"header":"One Piece",
+    "album": [
+      {
+         "picture": "./FairyTail/Natsu.jpg",
+         "path":"./album/3/picture/0"
+     },
+      {
+        "picture": "./FairyTail/Erza.jpg",
+        "path":"./album/3/picture/1"
+    },
+      {
+        "picture": "./FairyTail/Grey.jpg",
+        "path":"./album/3/picture/2"
+    },
+      {
+        "picture": "./FairyTail/Lucy.jpg",
+        "path":"./album/3/picture/3"
+    },
+      {
+        "picture": "./FairyTail/Laxus.png",
+        "path":"./album/3/picture/4"
+    },
+      {
+        "picture": "./FairyTail/Mirajane.jpg",
+        "path":"./album/3/picture/5"
+      }
+    ]
+  },{
+  "picture": "./Simpson/Simpsons.jpg",
+   "path": "./album/4",
+  	"header":"Simpson",
+    "album": [
+      {
+         "picture": "./Simpson/Homer.jpeg",
+         "path":"./album/4/picture/0"
+     },
+      {
+        "picture": "./Simpson/Maggie.gif",
+        "path":"./album/4/picture/1"
+    },
+      {
+        "picture": "./Simpson/Marge.png",
+        "path":"./album/4/picture/2"
+    },
+      {
+        "picture": "./Simpson/Bart.jpg",
+        "path":"./album/4/picture/3"
+    },
+      {
+        "picture": "./Simpson/Lisa.jpg",
+        "path":"./album/4/picture/4"
+    },
+      {
+        "picture": "./Simpson/Flanders.png",
+        "path":"./album/4/picture/5"
+      }
+    ]
+  },
+  {
+  "picture": "./FairyTail/Natsu.jpg",
+   "path": "./album/3",
+  	"header":"One Piece",
+    "album": [
+      {
+         "picture": "./FairyTail/Natsu.jpg",
+         "path":"./album/3/picture/0"
+     },
+      {
+        "picture": "./FairyTail/Erza.jpg",
+        "path":"./album/3/picture/1"
+    },
+      {
+        "picture": "./FairyTail/Grey.jpg",
+        "path":"./album/3/picture/2"
+    },
+      {
+        "picture": "./FairyTail/Lucy.jpg",
+        "path":"./album/3/picture/3"
+    },
+      {
+        "picture": "./FairyTail/Laxus.png",
+        "path":"./album/3/picture/4"
+    },
+      {
+        "picture": "./FairyTail/Mirajane.jpg",
+        "path":"./album/3/picture/5"
+      }
     ]
   }
 ]
